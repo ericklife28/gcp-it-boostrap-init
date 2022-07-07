@@ -1,8 +1,24 @@
+## Enable projects's APIS
+
+1. Set the bulid project id and the app project id
+
+export BUILD_PROJECT_ID=[BUILD_PROJECT_ID]
+export APP_PROJECT_ID=[APP_POJECT_OD]
+
+2. Change the permissions on enable_apis.sh
+
+chmod +x enable_apis.sh
+
+3. Execute enable_apis.sh
+
+./enable_apis.sh
+
+
 ## Creaate bootstrap user on the bouild account
 
 1. Set the build project id
 
-export BUILD_PROJECT_ID=bogota-bod-build
+export BUILD_PROJECT_ID=[BUILD_PROJECT_ID]
 
 2. Change the permissions on bootstrapping_user.sh
 
@@ -18,8 +34,8 @@ For every project execute this
 
 1. Set the bulid project id and the build project id
 
-export BUILD_PROJECT_ID=
-export PROJECT_ID=
+export BUILD_PROJECT_ID=[BUILD_PROJECT_ID]
+export PROJECT_ID=[APP_PROJECT_ID]
 
 2. Change the permissions on bootstraping_projects_pemissions.sh
 
@@ -31,15 +47,15 @@ chmod +x bootstraping_projects_pemissions.sh
 
 
 
-## Creating bootstrap buckets on every project
+## Creating bootstrap buckets on build project
 
 For every project-environment execute this
 
 1. Set required environment variables
 
-PROJECT_ID=[PROJECT_ID]
-ORG=[ORGANIZATION]
-ENVIRONMENT=[pfl,dev,prod,bld]
+export PROJECT_ID=[BUILD_PROJECT_ID]
+export ORG=[ORGANIZATION]
+export ENVIRONMENT=bld
 
 2. Change the permissions on bootstrapping_buckets.sh
 
