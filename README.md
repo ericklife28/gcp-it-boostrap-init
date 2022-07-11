@@ -3,7 +3,8 @@
 1. Set the bulid project id and the app project id
 
 export BUILD_PROJECT_ID=[BUILD_PROJECT_ID]
-export APP_PROJECT_ID=[APP_POJECT_OD]
+
+export APP_PROJECT_ID=[APP_PROJECT_ID]
 
 2. Change the permissions on enable_apis.sh
 
@@ -49,11 +50,10 @@ chmod +x bootstraping_projects_pemissions.sh
 
 ## Creating bootstrap buckets on build project
 
-For every project-environment execute this
 
 1. Set required environment variables
 
-export PROJECT_ID=[BUILD_PROJECT_ID]
+export BUILD_PROJECT_ID=[BUILD_PROJECT_ID]
 export ORG=[ORGANIZATION]
 export ENVIRONMENT=bld
 

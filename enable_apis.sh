@@ -95,7 +95,7 @@ gcloud services enable pubsub.googleapis.com
 
 gcloud services enable servicemanagement.googleapis.com
 
-gcloud services enable source.googleapis.com
+#gcloud services enable source.googleapis.com
 
 gcloud services enable sql-component.googleapis.com
 
