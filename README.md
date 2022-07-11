@@ -2,9 +2,9 @@
 
 1. Set the bulid project id and the app project id
 
-export BUILD_PROJECT_ID=[BUILD_PROJECT_ID]
+export BUILD_PROJECT_ID=<BUILD_PROJECT_ID>
 
-export APP_PROJECT_ID=[APP_PROJECT_ID]
+export APP_PROJECT_ID=<APP_PROJECT_ID]>
 
 2. Change the permissions on enable_apis.sh
 
@@ -19,7 +19,7 @@ chmod +x enable_apis.sh
 
 1. Set the build project id
 
-export BUILD_PROJECT_ID=[BUILD_PROJECT_ID]
+export BUILD_PROJECT_ID=<BUILD_PROJECT_ID]>
 
 2. Change the permissions on bootstrapping_user.sh
 
@@ -35,8 +35,8 @@ For every project execute this
 
 1. Set the bulid project id and the build project id
 
-export BUILD_PROJECT_ID=[BUILD_PROJECT_ID]
-export PROJECT_ID=[APP_PROJECT_ID]
+export BUILD_PROJECT_ID=<BUILD_PROJECT_ID>
+export PROJECT_ID=<APP_PROJECT_ID]>
 
 2. Change the permissions on bootstraping_projects_pemissions.sh
 
@@ -53,8 +53,8 @@ chmod +x bootstraping_projects_pemissions.sh
 
 1. Set required environment variables
 
-export BUILD_PROJECT_ID=[BUILD_PROJECT_ID]
-export ORG=[ORGANIZATION]
+export BUILD_PROJECT_ID=<BUILD_PROJECT_ID>
+export ORG=<ORGANIZATION>
 export ENVIRONMENT=bld
 
 2. Change the permissions on bootstrapping_buckets.sh
